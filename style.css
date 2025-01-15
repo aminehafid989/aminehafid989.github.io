@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Title Styles */
+#title1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Image Styles */
+#imageomega {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#imageomega img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form Styles */
+#loginset {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+#loginset legend {
+    font-size: 1.5em;
+    color: red;
+    margin-bottom: 10px;
+}
+
+#loginset label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#loginset input[type="email"],
+#loginset input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #008006;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+#loginset input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#loginset input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #008006;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#loginset input[type="submit"]:hover {
+    background-color: #005004;
+}
+
+/* Navigation Buttons */
+#pages {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pages a {
+    text-decoration: none;
+}
+
+#pages input[type="button"] {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #050020;
+    border-radius: 5px;
+    background-color: #050020;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pages input[type="button"]:hover {
+    background-color: #030015;
+}
+
+/* Social Media Icons */
+#social {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#social a {
+    margin: 0 10px;
+}
+
+#social img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+#social img:hover {
+    transform: scale(1.2);
+}
+/* Presentation Styles */
+#presentation {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery-img {
+    margin: 10px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
